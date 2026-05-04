@@ -1,0 +1,19 @@
+streamlit>=1.30.0
+openai>=1.10.0
+chromadb>=0.4.22
+sentence-transformers>=2.3.0
+langchain-text-splitters>=0.0.1
+pdfplumber>=0.10.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+rank-bm25>=0.2.2
+python-dotenv>=1.0.0
+tiktoken>=0.5.0
+filelock>=3.12.0
+# 多模态支持
+Pillow>=10.0.0
+numpy>=1.24.0
+# 评测可视化
+plotly>=5.18.0
+# 混合检索（中文分词）
+jieba>=0.42.1

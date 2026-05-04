@@ -1,0 +1,567 @@
+[2026-04-30 09:17:26] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 09:18:22] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:18:22] INFO    ask_my_brain | 文档加载完成: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:18:24] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:18:24] INFO    ask_my_brain | 文档加载完成: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:18:26] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\3知识库.pdf, 6524 字符
+[2026-04-30 09:18:26] INFO    ask_my_brain | 文档加载完成: 3知识库.pdf, 6524 字符
+[2026-04-30 09:18:28] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:18:28] INFO    ask_my_brain | 文档加载完成: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:18:29] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:18:29] INFO    ask_my_brain | 文档加载完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:18:32] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:18:32] INFO    ask_my_brain | 文档加载完成: 第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:18:35] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:18:35] INFO    ask_my_brain | 文档加载完成: 第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:18:37] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第8节｜原型图（AI产品经理版）.pdf, 5410 字符
+[2026-04-30 09:18:37] INFO    ask_my_brain | 文档加载完成: 第8节｜原型图（AI产品经理版）.pdf, 5410 字符
+[2026-04-30 09:18:39] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第9节｜写出可落地的PRD.pdf, 8166 字符
+[2026-04-30 09:18:39] INFO    ask_my_brain | 文档加载完成: 第9节｜写出可落地的PRD.pdf, 8166 字符
+[2026-04-30 09:18:41] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第10节｜如何回答质疑(1).pdf, 8812 字符
+[2026-04-30 09:18:41] INFO    ask_my_brain | 文档加载完成: 第10节｜如何回答质疑(1).pdf, 8812 字符
+[2026-04-30 09:18:44] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 10331 字符
+[2026-04-30 09:18:44] INFO    ask_my_brain | 文档加载完成: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 10331 字符
+[2026-04-30 09:18:46] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 11189 字符
+[2026-04-30 09:18:46] INFO    ask_my_brain | 文档加载完成: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 11189 字符
+[2026-04-30 09:18:48] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第13节｜上线后的数据与运营.pdf, 9546 字符
+[2026-04-30 09:18:48] INFO    ask_my_brain | 文档加载完成: 第13节｜上线后的数据与运营.pdf, 9546 字符
+[2026-04-30 09:18:50] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第14节｜AI产品的迭代节奏.pdf, 12536 字符
+[2026-04-30 09:18:50] INFO    ask_my_brain | 文档加载完成: 第14节｜AI产品的迭代节奏.pdf, 12536 字符
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第8节｜原型图（AI产品经理版）.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第9节｜写出可落地的PRD.pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第10节｜如何回答质疑(1).pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第13节｜上线后的数据与运营.pdf, 16 chunk, 语言=chinese
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 分块完成: 第14节｜AI产品的迭代节奏.pdf, 18 chunk, 语言=chinese
+[2026-04-30 09:19:08] INFO    ask_my_brain | 批量分块完成: 14 篇 -> 180 chunk
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第8节｜原型图（AI产品经理版）.pdf (5410 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第9节｜写出可落地的PRD.pdf (8166 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第10节｜如何回答质疑(1).pdf (8812 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf (10331 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf (11189 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第13节｜上线后的数据与运营.pdf (9546 字符)
+[2026-04-30 09:19:08] DEBUG   ask_my_brain | 完整文档已缓存: 第14节｜AI产品的迭代节奏.pdf (12536 字符)
+[2026-04-30 09:19:08] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 09:22:24] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:22:24] INFO    ask_my_brain | 文档加载完成: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:22:26] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:22:26] INFO    ask_my_brain | 文档加载完成: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:22:28] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\3知识库.pdf, 6524 字符
+[2026-04-30 09:22:28] INFO    ask_my_brain | 文档加载完成: 3知识库.pdf, 6524 字符
+[2026-04-30 09:22:30] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:22:30] INFO    ask_my_brain | 文档加载完成: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:22:31] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:22:31] INFO    ask_my_brain | 文档加载完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:22:34] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:22:34] INFO    ask_my_brain | 文档加载完成: 第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:22:38] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:22:38] INFO    ask_my_brain | 文档加载完成: 第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:22:39] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第8节｜原型图（AI产品经理版）.pdf, 5410 字符
+[2026-04-30 09:22:39] INFO    ask_my_brain | 文档加载完成: 第8节｜原型图（AI产品经理版）.pdf, 5410 字符
+[2026-04-30 09:22:41] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第9节｜写出可落地的PRD.pdf, 8166 字符
+[2026-04-30 09:22:41] INFO    ask_my_brain | 文档加载完成: 第9节｜写出可落地的PRD.pdf, 8166 字符
+[2026-04-30 09:22:44] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第10节｜如何回答质疑(1).pdf, 8812 字符
+[2026-04-30 09:22:44] INFO    ask_my_brain | 文档加载完成: 第10节｜如何回答质疑(1).pdf, 8812 字符
+[2026-04-30 09:22:46] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 10331 字符
+[2026-04-30 09:22:46] INFO    ask_my_brain | 文档加载完成: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 10331 字符
+[2026-04-30 09:22:49] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 11189 字符
+[2026-04-30 09:22:49] INFO    ask_my_brain | 文档加载完成: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 11189 字符
+[2026-04-30 09:22:51] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第13节｜上线后的数据与运营.pdf, 9546 字符
+[2026-04-30 09:22:51] INFO    ask_my_brain | 文档加载完成: 第13节｜上线后的数据与运营.pdf, 9546 字符
+[2026-04-30 09:22:53] DEBUG   ask_my_brain | pdfplumber解析成功: D:\ask-my-brain\data\documents\第14节｜AI产品的迭代节奏.pdf, 12536 字符
+[2026-04-30 09:22:53] INFO    ask_my_brain | 文档加载完成: 第14节｜AI产品的迭代节奏.pdf, 12536 字符
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第8节｜原型图（AI产品经理版）.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第9节｜写出可落地的PRD.pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第10节｜如何回答质疑(1).pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第13节｜上线后的数据与运营.pdf, 16 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第14节｜AI产品的迭代节奏.pdf, 18 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第8节｜原型图（AI产品经理版）.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第9节｜写出可落地的PRD.pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第10节｜如何回答质疑(1).pdf, 13 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf, 17 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第13节｜上线后的数据与运营.pdf, 16 chunk, 语言=chinese
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 分块完成: 第14节｜AI产品的迭代节奏.pdf, 18 chunk, 语言=chinese
+[2026-04-30 09:22:59] INFO    ask_my_brain | 批量分块完成: 28 篇 -> 360 chunk
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第8节｜原型图（AI产品经理版）.pdf (5410 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第9节｜写出可落地的PRD.pdf (8166 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第10节｜如何回答质疑(1).pdf (8812 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf (10331 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf (11189 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第13节｜上线后的数据与运营.pdf (9546 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第14节｜AI产品的迭代节奏.pdf (12536 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第8节｜原型图（AI产品经理版）.pdf (5410 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第9节｜写出可落地的PRD.pdf (8166 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第10节｜如何回答质疑(1).pdf (8812 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第11节｜划清人机协作界线：明确谁预测，谁判断，谁背锅.pdf (10331 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第12节｜灰度发布的艺术：设计可回退、可复盘的上线节奏.pdf (11189 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第13节｜上线后的数据与运营.pdf (9546 字符)
+[2026-04-30 09:22:59] DEBUG   ask_my_brain | 完整文档已缓存: 第14节｜AI产品的迭代节奏.pdf (12536 字符)
+[2026-04-30 09:22:59] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 09:27:06] ERROR   ask_my_brain | Embedding模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+[2026-04-30 09:27:06] ERROR   ask_my_brain | 索引构建失败: Embedding模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+[2026-04-30 09:30:56] ERROR   ask_my_brain | Embedding模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+[2026-04-30 09:30:56] ERROR   ask_my_brain | 索引构建失败: Embedding模型加载失败: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.
+Check your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.
+[2026-04-30 09:48:57] INFO    ask_my_brain | HuggingFace镜像: https://hf-mirror.com
+[2026-04-30 09:49:00] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 09:49:40] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:49:41] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:49:41] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:49:42] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:49:42] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:49:43] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:49:43] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:49:43] INFO    ask_my_brain | 解析PDF: 2判断一件事是否值得智能化.pdf (5.0MB)
+[2026-04-30 09:49:43] INFO    ask_my_brain | PDF共 52 页
+[2026-04-30 09:49:43] DEBUG   ask_my_brain |   已解析 10/52 页
+[2026-04-30 09:49:44] DEBUG   ask_my_brain |   已解析 20/52 页
+[2026-04-30 09:49:44] DEBUG   ask_my_brain |   已解析 30/52 页
+[2026-04-30 09:49:45] DEBUG   ask_my_brain |   已解析 40/52 页
+[2026-04-30 09:49:45] DEBUG   ask_my_brain |   已解析 50/52 页
+[2026-04-30 09:49:45] INFO    ask_my_brain | pdfplumber成功: 2判断一件事是否值得智能化.pdf, 7655 字符, 52 页
+[2026-04-30 09:49:45] INFO    ask_my_brain | 文档加载: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:49:45] INFO    ask_my_brain | 解析PDF: 3知识库.pdf (5.8MB)
+[2026-04-30 09:49:45] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:49:46] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:49:46] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:49:47] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:49:47] INFO    ask_my_brain | pdfplumber成功: 3知识库.pdf, 6524 字符, 37 页
+[2026-04-30 09:49:47] INFO    ask_my_brain | 文档加载: 3知识库.pdf, 6524 字符
+[2026-04-30 09:49:47] INFO    ask_my_brain | 解析PDF: 4指标体系与价值口径设计.pdf (4.9MB)
+[2026-04-30 09:49:47] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:49:48] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:49:48] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:49:49] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:49:49] INFO    ask_my_brain | pdfplumber成功: 4指标体系与价值口径设计.pdf, 6972 字符, 37 页
+[2026-04-30 09:49:49] INFO    ask_my_brain | 文档加载: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:49:49] INFO    ask_my_brain | 解析PDF: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (3.3MB)
+[2026-04-30 09:49:49] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:49:50] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:49:50] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:49:50] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:49:51] INFO    ask_my_brain | pdfplumber成功: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符, 37 页
+[2026-04-30 09:49:51] INFO    ask_my_brain | 文档加载: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:49:51] INFO    ask_my_brain | 解析PDF: 第6节课：项目骨架的构建.pdf (3.9MB)
+[2026-04-30 09:49:51] INFO    ask_my_brain | PDF共 33 页
+[2026-04-30 09:49:51] DEBUG   ask_my_brain |   已解析 10/33 页
+[2026-04-30 09:49:52] DEBUG   ask_my_brain |   已解析 20/33 页
+[2026-04-30 09:49:53] DEBUG   ask_my_brain |   已解析 30/33 页
+[2026-04-30 09:49:53] INFO    ask_my_brain | pdfplumber成功: 第6节课：项目骨架的构建.pdf, 3906 字符, 33 页
+[2026-04-30 09:49:53] INFO    ask_my_brain | 文档加载: 第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:49:53] INFO    ask_my_brain | 解析PDF: 第7节｜提示词设计的产品思维.pdf (4.8MB)
+[2026-04-30 09:49:53] INFO    ask_my_brain | PDF共 59 页
+[2026-04-30 09:49:54] DEBUG   ask_my_brain |   已解析 10/59 页
+[2026-04-30 09:49:54] DEBUG   ask_my_brain |   已解析 20/59 页
+[2026-04-30 09:49:55] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:49:55] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:49:55] DEBUG   ask_my_brain |   已解析 30/59 页
+[2026-04-30 09:49:57] DEBUG   ask_my_brain |   已解析 40/59 页
+[2026-04-30 09:49:57] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:49:58] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:49:58] DEBUG   ask_my_brain |   已解析 50/59 页
+[2026-04-30 09:49:58] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:49:59] INFO    ask_my_brain | pdfplumber成功: 第7节｜提示词设计的产品思维.pdf, 12406 字符, 59 页
+[2026-04-30 09:49:59] INFO    ask_my_brain | 文档加载: 第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:50:00] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:50:00] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:50:00] INFO    ask_my_brain | 解析PDF: 2判断一件事是否值得智能化.pdf (5.0MB)
+[2026-04-30 09:50:00] INFO    ask_my_brain | PDF共 52 页
+[2026-04-30 09:50:00] DEBUG   ask_my_brain |   已解析 10/52 页
+[2026-04-30 09:50:00] DEBUG   ask_my_brain |   已解析 20/52 页
+[2026-04-30 09:50:01] DEBUG   ask_my_brain |   已解析 30/52 页
+[2026-04-30 09:50:01] DEBUG   ask_my_brain |   已解析 40/52 页
+[2026-04-30 09:50:02] DEBUG   ask_my_brain |   已解析 50/52 页
+[2026-04-30 09:50:02] INFO    ask_my_brain | pdfplumber成功: 2判断一件事是否值得智能化.pdf, 7655 字符, 52 页
+[2026-04-30 09:50:02] INFO    ask_my_brain | 文档加载: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:50:02] INFO    ask_my_brain | 解析PDF: 3知识库.pdf (5.8MB)
+[2026-04-30 09:50:02] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:02] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:03] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:03] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:03] INFO    ask_my_brain | pdfplumber成功: 3知识库.pdf, 6524 字符, 37 页
+[2026-04-30 09:50:03] INFO    ask_my_brain | 文档加载: 3知识库.pdf, 6524 字符
+[2026-04-30 09:50:03] INFO    ask_my_brain | 解析PDF: 4指标体系与价值口径设计.pdf (4.9MB)
+[2026-04-30 09:50:03] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:04] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:04] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:04] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:05] INFO    ask_my_brain | pdfplumber成功: 4指标体系与价值口径设计.pdf, 6972 字符, 37 页
+[2026-04-30 09:50:05] INFO    ask_my_brain | 文档加载: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:50:05] INFO    ask_my_brain | 解析PDF: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (3.3MB)
+[2026-04-30 09:50:05] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:05] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:06] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:06] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:06] INFO    ask_my_brain | pdfplumber成功: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符, 37 页
+[2026-04-30 09:50:06] INFO    ask_my_brain | 文档加载: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:50:06] INFO    ask_my_brain | 解析PDF: 第6节课：项目骨架的构建.pdf (3.9MB)
+[2026-04-30 09:50:06] INFO    ask_my_brain | PDF共 33 页
+[2026-04-30 09:50:07] DEBUG   ask_my_brain |   已解析 10/33 页
+[2026-04-30 09:50:08] DEBUG   ask_my_brain |   已解析 20/33 页
+[2026-04-30 09:50:09] DEBUG   ask_my_brain |   已解析 30/33 页
+[2026-04-30 09:50:09] INFO    ask_my_brain | pdfplumber成功: 第6节课：项目骨架的构建.pdf, 3906 字符, 33 页
+[2026-04-30 09:50:09] INFO    ask_my_brain | 文档加载: 第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:50:09] INFO    ask_my_brain | 解析PDF: 第7节｜提示词设计的产品思维.pdf (4.8MB)
+[2026-04-30 09:50:09] INFO    ask_my_brain | PDF共 59 页
+[2026-04-30 09:50:09] DEBUG   ask_my_brain |   已解析 10/59 页
+[2026-04-30 09:50:10] DEBUG   ask_my_brain |   已解析 20/59 页
+[2026-04-30 09:50:11] DEBUG   ask_my_brain |   已解析 30/59 页
+[2026-04-30 09:50:11] DEBUG   ask_my_brain |   已解析 40/59 页
+[2026-04-30 09:50:12] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:50:17] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:50:17] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:50:17] DEBUG   ask_my_brain |   已解析 50/59 页
+[2026-04-30 09:50:18] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:50:18] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:50:19] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:50:19] INFO    ask_my_brain | pdfplumber成功: 第7节｜提示词设计的产品思维.pdf, 12406 字符, 59 页
+[2026-04-30 09:50:19] INFO    ask_my_brain | 文档加载: 第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:50:20] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:50:20] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:50:20] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:50:20] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:50:20] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:50:21] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:50:21] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:50:21] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:50:22] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:50:22] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:50:22] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:50:23] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:50:23] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:50:23] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:50:23] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:50:23] INFO    ask_my_brain | 解析PDF: 2判断一件事是否值得智能化.pdf (5.0MB)
+[2026-04-30 09:50:23] INFO    ask_my_brain | PDF共 52 页
+[2026-04-30 09:50:24] DEBUG   ask_my_brain |   已解析 10/52 页
+[2026-04-30 09:50:24] DEBUG   ask_my_brain |   已解析 20/52 页
+[2026-04-30 09:50:24] DEBUG   ask_my_brain |   已解析 30/52 页
+[2026-04-30 09:50:25] DEBUG   ask_my_brain |   已解析 40/52 页
+[2026-04-30 09:50:25] DEBUG   ask_my_brain |   已解析 50/52 页
+[2026-04-30 09:50:25] INFO    ask_my_brain | pdfplumber成功: 2判断一件事是否值得智能化.pdf, 7655 字符, 52 页
+[2026-04-30 09:50:25] INFO    ask_my_brain | 文档加载: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:50:25] INFO    ask_my_brain | 解析PDF: 3知识库.pdf (5.8MB)
+[2026-04-30 09:50:25] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:26] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:26] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:27] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:27] INFO    ask_my_brain | pdfplumber成功: 3知识库.pdf, 6524 字符, 37 页
+[2026-04-30 09:50:27] INFO    ask_my_brain | 文档加载: 3知识库.pdf, 6524 字符
+[2026-04-30 09:50:27] INFO    ask_my_brain | 解析PDF: 4指标体系与价值口径设计.pdf (4.9MB)
+[2026-04-30 09:50:27] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:27] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 09:50:27] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 09:50:28] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 09:50:28] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:29] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 09:50:29] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:29] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 09:50:30] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 09:50:30] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 09:50:30] INFO    ask_my_brain | 解析PDF: 2判断一件事是否值得智能化.pdf (5.0MB)
+[2026-04-30 09:50:30] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:30] INFO    ask_my_brain | PDF共 52 页
+[2026-04-30 09:50:30] INFO    ask_my_brain | pdfplumber成功: 4指标体系与价值口径设计.pdf, 6972 字符, 37 页
+[2026-04-30 09:50:30] INFO    ask_my_brain | 文档加载: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:50:31] DEBUG   ask_my_brain |   已解析 10/52 页
+[2026-04-30 09:50:31] DEBUG   ask_my_brain |   已解析 20/52 页
+[2026-04-30 09:50:32] DEBUG   ask_my_brain |   已解析 30/52 页
+[2026-04-30 09:50:32] DEBUG   ask_my_brain |   已解析 40/52 页
+[2026-04-30 09:50:32] DEBUG   ask_my_brain |   已解析 50/52 页
+[2026-04-30 09:50:33] INFO    ask_my_brain | pdfplumber成功: 2判断一件事是否值得智能化.pdf, 7655 字符, 52 页
+[2026-04-30 09:50:33] INFO    ask_my_brain | 文档加载: 2判断一件事是否值得智能化.pdf, 7655 字符
+[2026-04-30 09:50:33] INFO    ask_my_brain | 解析PDF: 3知识库.pdf (5.8MB)
+[2026-04-30 09:50:33] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:33] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:33] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:34] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:34] INFO    ask_my_brain | pdfplumber成功: 3知识库.pdf, 6524 字符, 37 页
+[2026-04-30 09:50:34] INFO    ask_my_brain | 文档加载: 3知识库.pdf, 6524 字符
+[2026-04-30 09:50:34] INFO    ask_my_brain | 解析PDF: 4指标体系与价值口径设计.pdf (4.9MB)
+[2026-04-30 09:50:34] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:35] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:35] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:35] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:36] INFO    ask_my_brain | pdfplumber成功: 4指标体系与价值口径设计.pdf, 6972 字符, 37 页
+[2026-04-30 09:50:36] INFO    ask_my_brain | 文档加载: 4指标体系与价值口径设计.pdf, 6972 字符
+[2026-04-30 09:50:36] INFO    ask_my_brain | 解析PDF: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (3.3MB)
+[2026-04-30 09:50:36] INFO    ask_my_brain | PDF共 37 页
+[2026-04-30 09:50:36] DEBUG   ask_my_brain |   已解析 10/37 页
+[2026-04-30 09:50:37] DEBUG   ask_my_brain |   已解析 20/37 页
+[2026-04-30 09:50:37] DEBUG   ask_my_brain |   已解析 30/37 页
+[2026-04-30 09:50:37] INFO    ask_my_brain | pdfplumber成功: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符, 37 页
+[2026-04-30 09:50:37] INFO    ask_my_brain | 文档加载: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 5813 字符
+[2026-04-30 09:50:37] INFO    ask_my_brain | 解析PDF: 第6节课：项目骨架的构建.pdf (3.9MB)
+[2026-04-30 09:50:37] INFO    ask_my_brain | PDF共 33 页
+[2026-04-30 09:50:38] DEBUG   ask_my_brain |   已解析 10/33 页
+[2026-04-30 09:50:39] DEBUG   ask_my_brain |   已解析 20/33 页
+[2026-04-30 09:50:39] DEBUG   ask_my_brain |   已解析 30/33 页
+[2026-04-30 09:50:39] INFO    ask_my_brain | pdfplumber成功: 第6节课：项目骨架的构建.pdf, 3906 字符, 33 页
+[2026-04-30 09:50:39] INFO    ask_my_brain | 文档加载: 第6节课：项目骨架的构建.pdf, 3906 字符
+[2026-04-30 09:50:39] INFO    ask_my_brain | 解析PDF: 第7节｜提示词设计的产品思维.pdf (4.8MB)
+[2026-04-30 09:50:39] INFO    ask_my_brain | PDF共 59 页
+[2026-04-30 09:50:40] DEBUG   ask_my_brain |   已解析 10/59 页
+[2026-04-30 09:50:41] DEBUG   ask_my_brain |   已解析 20/59 页
+[2026-04-30 09:50:41] DEBUG   ask_my_brain |   已解析 30/59 页
+[2026-04-30 09:50:42] DEBUG   ask_my_brain |   已解析 40/59 页
+[2026-04-30 09:50:42] DEBUG   ask_my_brain |   已解析 50/59 页
+[2026-04-30 09:50:43] INFO    ask_my_brain | pdfplumber成功: 第7节｜提示词设计的产品思维.pdf, 12406 字符, 59 页
+[2026-04-30 09:50:43] INFO    ask_my_brain | 文档加载: 第7节｜提示词设计的产品思维.pdf, 12406 字符
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 2判断一件事是否值得智能化.pdf, 12 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 3知识库.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 4指标体系与价值口径设计.pdf, 11 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf, 9 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第6节课：项目骨架的构建.pdf, 6 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 分块完成: 第7节｜提示词设计的产品思维.pdf, 20 chunk, 语言=chinese
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 2判断一件事是否值得智能化.pdf (7655 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 3知识库.pdf (6524 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 4指标体系与价值口径设计.pdf (6972 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第5节课：流程图与泳道图——智能系统的交互逻辑设计.pdf (5813 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第6节课：项目骨架的构建.pdf (3906 字符)
+[2026-04-30 09:50:53] DEBUG   ask_my_brain | 完整文档已缓存: 第7节｜提示词设计的产品思维.pdf (12406 字符)
+[2026-04-30 09:50:53] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 09:50:53] INFO    ask_my_brain | 首次使用需下载模型（约90MB），请稍候...
+[2026-04-30 09:58:42] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 09:58:42] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 09:58:54] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 09:59:44] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 09:59:48] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 10:00:30] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:00:32] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:00:38] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 10:02:37] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:02:37] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 10:02:53] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 10:02:53] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 10:02:54] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 10:02:54] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 10:02:54] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 10:02:55] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 10:02:55] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 10:02:58] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:02:58] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:02:58] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:04] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:03:13] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:14] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 10:03:16] INFO    ask_my_brain | 向量化完成: 200 chunk -> 200 向量
+[2026-04-30 10:03:33] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:03:33] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:03:33] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:33] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:03:33] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:03:33] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:03:34] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:03:34] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:03:34] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:03:34] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:03:39] INFO    ask_my_brain | 索引已清空
+[2026-04-30 10:03:39] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 10:03:42] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:04:02] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:04:04] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 10:04:09] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 10:04:09] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 10:04:09] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 10:04:10] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 10:04:10] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 10:04:11] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 10:04:11] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 10:04:15] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:04:15] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:04:15] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:06:06] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:07:03] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:07:16] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 10:07:18] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 10:07:26] INFO    ask_my_brain | 解析PDF: 1什么是产品经理.pdf (5.1MB)
+[2026-04-30 10:07:26] INFO    ask_my_brain | PDF共 39 页
+[2026-04-30 10:07:26] DEBUG   ask_my_brain |   已解析 10/39 页
+[2026-04-30 10:07:27] DEBUG   ask_my_brain |   已解析 20/39 页
+[2026-04-30 10:07:27] DEBUG   ask_my_brain |   已解析 30/39 页
+[2026-04-30 10:07:27] INFO    ask_my_brain | pdfplumber成功: 1什么是产品经理.pdf, 4622 字符, 39 页
+[2026-04-30 10:07:27] INFO    ask_my_brain | 文档加载: 1什么是产品经理.pdf, 4622 字符
+[2026-04-30 10:07:36] DEBUG   ask_my_brain | 分块完成: 1什么是产品经理.pdf, 8 chunk, 语言=chinese
+[2026-04-30 10:07:36] DEBUG   ask_my_brain | 完整文档已缓存: 1什么是产品经理.pdf (4622 字符)
+[2026-04-30 10:07:36] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 10:07:36] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 10:07:38] INFO    ask_my_brain | 向量化完成: 8 chunk -> 8 向量
+[2026-04-30 10:07:39] INFO    ask_my_brain | 索引构建完成: 8 个chunk写入ChromaDB
+[2026-04-30 10:07:49] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 10:07:50] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/anthropic
+[2026-04-30 10:08:11] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 10:09:08] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 10:09:36] INFO    ask_my_brain | 策略A检索: 5 chunk, 1666 tokens
+[2026-04-30 12:16:20] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 12:16:24] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 12:16:45] INFO    ask_my_brain | 评测开始: 什么是AI产品经理...
+[2026-04-30 12:16:45] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 12:16:56] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 12:16:56] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 12:16:56] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 12:17:00] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 12:17:16] INFO    ask_my_brain | API调用成功: 2122+985 tokens, 16047ms
+[2026-04-30 12:17:17] INFO    ask_my_brain | API调用成功: 2122+1097 tokens, 20799ms
+[2026-04-30 12:17:17] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 12:17:31] INFO    ask_my_brain | 评测开始: 什么是AI产品经理...
+[2026-04-30 12:17:31] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 12:17:35] INFO    ask_my_brain | API调用成功: 252+978 tokens, 17799ms
+[2026-04-30 12:17:35] INFO    ask_my_brain | 评测完成: A=20.91s/1665tok, B=17.8s/0tok
+[2026-04-30 12:17:47] INFO    ask_my_brain | API调用成功: 2122+928 tokens, 15620ms
+[2026-04-30 12:17:47] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 12:18:05] INFO    ask_my_brain | API调用成功: 252+1087 tokens, 18244ms
+[2026-04-30 12:18:05] INFO    ask_my_brain | 评测完成: A=15.63s/1665tok, B=18.25s/0tok
+[2026-04-30 12:18:33] INFO    ask_my_brain | 评测开始: 什么是向量数据库？...
+[2026-04-30 12:18:33] INFO    ask_my_brain | 策略A检索: 5 chunk, 1554 tokens
+[2026-04-30 12:18:39] INFO    ask_my_brain | 评测开始: 什么是向量数据库？...
+[2026-04-30 12:18:39] INFO    ask_my_brain | 策略A检索: 5 chunk, 1554 tokens
+[2026-04-30 12:18:42] INFO    ask_my_brain | API调用成功: 1966+439 tokens, 8272ms
+[2026-04-30 12:18:42] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 12:18:46] INFO    ask_my_brain | API调用成功: 1966+239 tokens, 6295ms
+[2026-04-30 12:18:46] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 12:19:04] INFO    ask_my_brain | API调用成功: 254+1146 tokens, 18545ms
+[2026-04-30 12:19:04] INFO    ask_my_brain | 评测完成: A=6.3s/1554tok, B=18.55s/0tok
+[2026-04-30 12:19:29] INFO    ask_my_brain | API调用成功: 254+4096 tokens, 47355ms
+[2026-04-30 12:19:29] INFO    ask_my_brain | 评测完成: A=8.28s/1554tok, B=47.36s/0tok
+[2026-04-30 12:24:01] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 12:24:07] INFO    ask_my_brain | 流式API完成: 27+123 tokens, 5727ms
+[2026-04-30 12:26:46] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 12:26:49] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 12:27:04] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 12:27:14] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 12:27:14] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 12:27:14] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 12:27:32] INFO    ask_my_brain | 流式API完成: 2122+950 tokens, 18041ms
+[2026-04-30 13:25:53] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 13:25:59] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 13:26:09] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 13:26:30] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 13:26:32] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 13:26:32] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 13:26:54] INFO    ask_my_brain | 流式API完成: 2122+1073 tokens, 22484ms
+[2026-04-30 13:27:09] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 13:27:09] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 13:27:13] INFO    ask_my_brain | 评测开始: 什么是AI产品经理...
+[2026-04-30 13:27:13] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 13:27:13] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 13:27:13] INFO    ask_my_brain | 策略A检索: 5 chunk, 1665 tokens
+[2026-04-30 13:27:13] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 13:27:28] INFO    ask_my_brain | API调用成功: 2122+795 tokens, 15067ms
+[2026-04-30 13:27:28] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 13:27:46] INFO    ask_my_brain | API调用成功: 252+995 tokens, 18404ms
+[2026-04-30 13:27:46] INFO    ask_my_brain | 评测完成: A=15.09s/1665tok, B=18.41s/0tok
+[2026-04-30 13:28:05] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 13:28:05] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
+[2026-04-30 13:28:05] INFO    ask_my_brain | 评测开始: 什么是向量数据库？...
+[2026-04-30 13:28:05] INFO    ask_my_brain | 正在加载Embedding模型: sentence-transformers/all-MiniLM-L6-v2
+[2026-04-30 13:28:05] INFO    ask_my_brain | Embedding模型加载完成，维度: 384
+[2026-04-30 13:28:05] INFO    ask_my_brain | 策略A检索: 5 chunk, 1554 tokens
+[2026-04-30 13:28:05] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 13:28:12] INFO    ask_my_brain | API调用成功: 1966+253 tokens, 6646ms
+[2026-04-30 13:28:12] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 13:28:33] INFO    ask_my_brain | API调用成功: 254+1249 tokens, 20860ms
+[2026-04-30 13:28:33] INFO    ask_my_brain | 评测完成: A=6.66s/1554tok, B=20.86s/0tok
+[2026-04-30 13:28:33] INFO    ask_my_brain | 评测开始: RAG的全称是什么？它的核心思想是什么？...
+[2026-04-30 13:28:34] INFO    ask_my_brain | 策略A检索: 5 chunk, 1628 tokens
+[2026-04-30 13:28:36] INFO    ask_my_brain | MiMo API客户端已初始化: https://token-plan-cn.xiaomimimo.com/v1
+[2026-04-30 13:28:41] INFO    ask_my_brain | API调用成功: 2043+304 tokens, 7105ms
+[2026-04-30 13:28:41] INFO    ask_my_brain | 策略B检索: 1 篇文档, 0 tokens (智能选择)
+[2026-04-30 13:28:43] INFO    ask_my_brain | 流式API完成: 258+177 tokens, 7001ms
+[2026-04-30 13:29:16] INFO    ask_my_brain | Embedding模型已缓存，启用离线模式
+[2026-04-30 13:29:18] INFO    ask_my_brain | ChromaDB collection已加载: ask_my_brain
